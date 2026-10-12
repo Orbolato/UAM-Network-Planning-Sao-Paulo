@@ -1,9 +1,14 @@
 cff-version: 1.2.0
-message: "If you use this code or data, please cite the article below."
-title: "Data-driven framework for urban air mobility planning in São Paulo, Brazil (code and data)"
+message: "If you use this repository, please cite the published article below."
+title: "Data-driven framework for urban air mobility planning in São Paulo, Brazil: code and reproducibility materials"
+type: software
+date-released: 2026-10-12
+repository-code: "https://github.com/Orbolato/UAM-Network-Planning-Sao-Paulo"
+url: "https://orbolato.github.io/publications/uam-network-planning/"
 authors:
   - family-names: Carvalho
     given-names: Lucas Orbolato
+    orcid: "https://orcid.org/0000-0002-8402-5832"
   - family-names: Gomes
     given-names: Igor Galhano
   - family-names: Rodrigues
@@ -14,12 +19,22 @@ authors:
     given-names: Marcelo Xavier
   - family-names: Pamplona
     given-names: Daniel Alberto
+keywords:
+  - urban air mobility
+  - advanced air mobility
+  - vertiport location
+  - network design
+  - demand estimation
+  - route optimization
+  - São Paulo
+  - reproducible research
 preferred-citation:
   type: article
   title: "Data-driven framework for urban air mobility planning: Integrating socioeconomic and operational factors for optimal network design in São Paulo, Brazil"
   authors:
     - family-names: Carvalho
       given-names: Lucas Orbolato
+      orcid: "https://orcid.org/0000-0002-8402-5832"
     - family-names: Gomes
       given-names: Igor Galhano
     - family-names: Rodrigues
