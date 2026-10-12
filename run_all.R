@@ -70,7 +70,7 @@ run <- function(script) {
   cat(paste(rep("#", 78), collapse = ""), "\n\n", sep = "")
   cmd <- if (grepl("\\.py$", script, ignore.case = TRUE)) PYTHON else RSCRIPT
   status <- system2(cmd, args = shQuote(script))
-  if (!identical(status, 0L)) {
+  if (length(status) != 1 || is.na(status) || status != 0) {
     stop("Script failed: ", script, " (exit status ", status, ")")
   }
 }
@@ -108,7 +108,7 @@ stash_scenario <- function(scenario) {
     }
   }
   if (length(moved) == 0) warning("No scenario outputs were found to move into ", dest)
-  cat("\n>>> Scenario outputs moved to", dest, "(", length(moved), "items )\n")
+  cat("\n>>> Scenario outputs moved to", dest, "(", length(moved), "items)\n")
 }
 
 PUBLIC_RAW_INPUTS <- c(
