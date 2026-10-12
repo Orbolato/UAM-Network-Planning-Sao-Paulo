@@ -5,21 +5,32 @@ output/*
 # Intermediate files created by the preprocessing scripts
 data/interim/
 
-# R
+# Restricted BIMTRA movement records are intentionally excluded.
+data/raw/bimtra/
+data/raw/bimtra/**
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# R session/project artifacts
 .Rhistory
 .RData
 .Ruserdata
 .Rproj.user/
 Rplots.pdf
 
-# Python
-__pycache__/
-*.pyc
+# Generated interactive-map dependency folders outside output/, if any
+*_files/
 
 # OS / editors
 .DS_Store
 Thumbs.db
 .vscode/
-
-# Raw BIMTRA records must not be redistributed
-data/raw/bimtra/
+.idea/
