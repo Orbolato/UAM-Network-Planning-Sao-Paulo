@@ -1,5 +1,24 @@
-# Normalize line endings of code and text files
+# Normalize source/documentation line endings across platforms.
 * text=auto
+*.R text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
 
-# Keep data files byte-for-byte as committed
+# Preserve committed research data byte-for-byte. This is intentional because
+# the integrity tests use Git blob identities as exact artifact anchors.
 data/** -text
+
+# Explicit binary formats.
+*.xlsx binary
+*.xls binary
+*.RData binary
+*.rda binary
+*.rds binary
+*.shp binary
+*.dbf binary
+*.shx binary
+*.png binary
+*.pdf binary
