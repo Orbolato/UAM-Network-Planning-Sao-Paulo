@@ -1,0 +1,5 @@
+# Normalize line endings of code and text files
+* text=auto
+
+# Keep data files byte-for-byte as committed
+data/** -text

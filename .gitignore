@@ -1,0 +1,25 @@
+# Generated results (recreate with: Rscript run_all.R)
+output/*
+!output/.gitkeep
+
+# Intermediate files created by the preprocessing scripts
+data/interim/
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+Rplots.pdf
+
+# Python
+__pycache__/
+*.pyc
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Raw BIMTRA records must not be redistributed
+data/raw/bimtra/

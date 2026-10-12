@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article below."
+title: "Data-driven framework for urban air mobility planning in São Paulo, Brazil (code and data)"
+authors:
+  - family-names: Carvalho
+    given-names: Lucas Orbolato
+  - family-names: Gomes
+    given-names: Igor Galhano
+  - family-names: Rodrigues
+    given-names: Jaqueline Fonseca
+  - family-names: Murça
+    given-names: Mayara Condé Rocha
+  - family-names: Guterres
+    given-names: Marcelo Xavier
+  - family-names: Pamplona
+    given-names: Daniel Alberto
+preferred-citation:
+  type: article
+  title: "Data-driven framework for urban air mobility planning: Integrating socioeconomic and operational factors for optimal network design in São Paulo, Brazil"
+  authors:
+    - family-names: Carvalho
+      given-names: Lucas Orbolato
+    - family-names: Gomes
+      given-names: Igor Galhano
+    - family-names: Rodrigues
+      given-names: Jaqueline Fonseca
+    - family-names: Murça
+      given-names: Mayara Condé Rocha
+    - family-names: Guterres
+      given-names: Marcelo Xavier
+    - family-names: Pamplona
+      given-names: Daniel Alberto
+  journal: "Case Studies on Transport Policy"
+  volume: 25
+  start: 101848
+  year: 2026
+  doi: "10.1016/j.cstp.2026.101848"
