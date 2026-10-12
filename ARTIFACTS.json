@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "description": "Exact-byte anchors for committed research-data artifacts in the public UAM network-planning package.",
+  "hash_type": "git-blob-sha1",
+  "hash_note": "Git blob identity is SHA-1 over 'blob <size>\\0' followed by the file bytes. It is used here as a Git content identity, not as a security guarantee.",
+  "artifacts": [
+    {
+      "path": "data/raw/anac/Helipontos.csv",
+      "bytes": 373249,
+      "git_blob_sha1": "d02a595a6097250a1cfd67456346ff9003e0622b",
+      "role": "ANAC civil-heliport register source snapshot"
+    },
+    {
+      "path": "data/raw/od2023/Tabelas_Site_OD2023_REV_190225.xlsx",
+      "bytes": 12742668,
+      "git_blob_sha1": "54c9ba9f726481dd97dab675494f87b93b06dd53",
+      "role": "Metrô-SP OD 2023 workbook source snapshot"
+    },
+    {
+      "path": "data/raw/od2023/shapefile/Zonas_2023.cpg",
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "role": "OD-zone shapefile code-page sidecar"
+    },
+    {
+      "path": "data/raw/od2023/shapefile/Zonas_2023.dbf",
+      "bytes": 114090,
+      "git_blob_sha1": "67b2b614318f0dabb68d0fd4c817f556b001a974",
+      "role": "OD-zone shapefile attributes"
+    },
+    {
+      "path": "data/raw/od2023/shapefile/Zonas_2023.prj",
+      "bytes": 429,
+      "git_blob_sha1": "97d29559fac3912e977b4e462bb0a52fc1d021d0",
+      "role": "OD-zone shapefile CRS definition"
+    },
+    {
+      "path": "data/raw/od2023/shapefile/Zonas_2023.shp",
+      "bytes": 4455316,
+      "git_blob_sha1": "1ed9f9caf3131e0f97326a662840d34cd630927d",
+      "role": "OD-zone geometry"
+    },
+    {
+      "path": "data/raw/od2023/shapefile/Zonas_2023.shx",
+      "bytes": 4316,
+      "git_blob_sha1": "fe8c9dc1a7377cddb9f1621094f2bb524ef05507",
+      "role": "OD-zone shapefile index"
+    },
+    {
+      "path": "data/processed/zones_data.csv",
+      "bytes": 73791,
+      "git_blob_sha1": "26a737902ad13d883ef7650259e62eef1e43a870",
+      "role": "Processed OD-zone socioeconomic indicators"
+    },
+    {
+      "path": "data/processed/income_per_capita.csv",
+      "bytes": 44872,
+      "git_blob_sha1": "3bdaf290c426b342eab3b79396f5abca803ad1df",
+      "role": "Processed zone-level income indicators"
+    },
+    {
+      "path": "data/processed/heliports.csv",
+      "bytes": 26524,
+      "git_blob_sha1": "c5561f4e159f5528f9932f1c133597903c50c870",
+      "role": "ANAC heliports filtered to RMSP"
+    },
+    {
+      "path": "data/processed/heliports_with_zones.csv",
+      "bytes": 27514,
+      "git_blob_sha1": "ed42c4ea015d4406e4f96e5a8368041811bd33be",
+      "role": "RMSP heliports assigned to OD zones"
+    },
+    {
+      "path": "data/processed/od_matrix_30.csv",
+      "bytes": 783010,
+      "git_blob_sha1": "fe822d4503203578d89152934903bf9e63d87164",
+      "role": "Long-form OD 2023 Table 30 demand matrix"
+    },
+    {
+      "path": "data/processed/reh_network_corrected.RData",
+      "bytes": 30277,
+      "git_blob_sha1": "ae4fb5710930b79248bc1e6a7c4aa7a8a1317622",
+      "role": "Curated REH routing network and obstacle representation"
+    },
+    {
+      "path": "data/processed/heliports_complete_with_coordinates.csv",
+      "bytes": 465601,
+      "git_blob_sha1": "bd090cc74693f8ab94c0f1f6ba593e91fc78507f",
+      "role": "Compiled aeronautical-location coordinate reference for BIMTRA processing"
+    },
+    {
+      "path": "data/processed/bimtra/BIMTRA_RMSP_Only_heliport_statistics.csv",
+      "bytes": 8196,
+      "git_blob_sha1": "f214e95606afddbc277ecb1725fe7bb4c02c72e2",
+      "role": "Aggregate RMSP helicopter activity by heliport"
+    },
+    {
+      "path": "data/processed/bimtra/BIMTRA_RMSP_Only_od_mapping_data_complete.csv",
+      "bytes": 176151,
+      "git_blob_sha1": "7cd04802ecf4230d86d1cdc8cba02abc0743f86a",
+      "role": "Aggregate RMSP helicopter activity by OD pair"
+    }
+  ]
+}
